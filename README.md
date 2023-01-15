@@ -5,3 +5,9 @@ The project is about testing facel verification on dazzeld images and comparing 
 
 The used data set is CelebFaces Attributes Dataset (CelebA).
 ___
+
+## Librarys used
+
+___
+
+## How to setup up the project 
