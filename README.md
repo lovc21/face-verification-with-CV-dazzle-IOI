@@ -11,3 +11,12 @@ ___
 ___
 
 ## How to setup up the project 
+
+1. clone the project 
+2. install the librarys
+3. Download the the data set CelebA form the [link] (https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 
+4. move the images to the source directory 
+5. select the methode of dazzling changing the line 
+    > #dazzledImagePath = Dazzling.dazzle_face_simple(j, dazzledImagePath, dazzledImageDirectory, newFileName)
+    > dazzledImagePath = Dazzling.dazzle_face_advance1(j, dazzledImagePath, dazzledImageDirectory, newFileName)
+6. start the script wait for the results 
