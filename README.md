@@ -18,5 +18,6 @@ ___
 4. move the images to the source directory 
 5. select the methode of dazzling changing the line 
     > #dazzledImagePath = Dazzling.dazzle_face_simple(j, dazzledImagePath, dazzledImageDirectory, newFileName)
+    > 
     > dazzledImagePath = Dazzling.dazzle_face_advance1(j, dazzledImagePath, dazzledImageDirectory, newFileName)
 6. start the script wait for the results 
