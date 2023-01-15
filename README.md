@@ -8,6 +8,7 @@ ___
 
 ## Librarys used
 
+``` 
 import getopt
 import logging
 import os
@@ -19,6 +20,9 @@ import Dazzling
 import cv2
 import dlib
 from numba import jit, cuda
+```
+
+
 ___
 
 ## How to setup up the project 
