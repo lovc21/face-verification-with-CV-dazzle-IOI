@@ -1,25 +1,23 @@
 # Testing face verification on dazzled faces (project for Interaction and information design)
 
-This is a poject for a school class in Interaction and information design. 
-The project is about testing facial verification on dazzeld images and comparing the methods used to verify a dazzeld images.The project is based on a python script that verifies a dazzeld image and writes the results in a csv file so the results can be visualized. 
+This is a project for a school class in Interaction and Information Design that aims to test facial verification algorithms on dazzled images. The project will involve comparing different methods of facial verification on images that have been obscured or camouflaged using various techniques, and evaluating the performance of these methods in terms of accuracy, speed, and robustness.
 
-The used data set is CelebFaces Attributes Dataset (CelebA).
+The project will be based on a python script that verifies the faces in the images and writes the results in a CSV file. The script will use the DeepFace library to perform the facial verification and the Dazzling library to apply different techniques of dazzling to the images. The data set used in this project is the CelebFaces Attributes Dataset (CelebA), which contains over 200,000 images of celebrities, each labeled with various attributes such as age, gender, and facial expression.
 ___
 
 ## Librarys used
 
 ``` 
-import getopt
-import logging
-import os
-import sys
-from pathlib import Path
-from deepface import DeepFace
-import csv
-import Dazzling
-import cv2
-import dlib
-from numba import jit, cuda
+ getopt
+ logging
+ os
+ sys
+ pathlib  
+ DeepFace
+ csv
+ cv2
+ dlib
+ numba 
 ```
 
 
@@ -27,12 +25,22 @@ ___
 
 ## How to setup up the project 
 
-1. clone the project 
-2. install the librarys
-3. Download the the data set CelebA form the [link] (https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 
-4. move the images to the source directory 
-5. select the methode of dazzling changing the line 
+To set up the project, you will need to:
+
+
+1. Clone the repository
+2. Install the required libraries (getopt, logging, os, sys, pathlib, deepface, csv, Dazzling, cv2, dlib, numba)
+3. Download the CelebA data set from the link provided (https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+4. Move the images to the source directory 
+5. Select the method of dazzling by changing the specific line of code in the script 
     > #dazzledImagePath = Dazzling.dazzle_face_simple(j, dazzledImagePath, dazzledImageDirectory, newFileName)
     > 
     > dazzledImagePath = Dazzling.dazzle_face_advance1(j, dazzledImagePath, dazzledImageDirectory, newFileName)
-6. start the script wait for the results 
+6. Start the script and wait for the results
+
+___
+
+It is important to note that you need to have the appropriate dependencies installed on your computer, including but not limited to python, deepface library, and cv2. Furthermore, it is important to follow the instructions provided in the repository, as well as the instructions provided in the libraries' documentation to ensure the successful execution of the script.
+
+
+
